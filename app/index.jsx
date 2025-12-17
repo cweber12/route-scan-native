@@ -5,7 +5,6 @@ import React from 'react'
 const Home = () => {
   return (
     <View>
-      <Text style={styles.title}>Route Scan</Text>
       <Link href="/detectPose">Start New Scan</Link>
       <Link href="/savedScans">Saved Scans</Link>
       
