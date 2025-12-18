@@ -5,13 +5,22 @@ import React from 'react'
 const DetectOrb = () => {
   return (
     <View>
-      <Text>Detect ORB</Text>
-      <Link href="/matchOrb">Match ORB Features</Link>
-      <Link href="/">Go Home</Link>
+      <Link href="/matchOrb" style={styles.link}>Match ORB Features</Link>
+      <Link href="/" style={styles.link}>Go Home</Link>
     </View>
   )
 }
 
 export default DetectOrb
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    link: {
+    fontSize: 18,
+    backgroundColor: '#007AFF',
+    color: '#fff',
+    padding: 10,
+    borderRadius: 5,
+    marginVertical: 5,
+    textAlign: 'center',
+  },
+})
