@@ -9,6 +9,7 @@ const RootLayout = () => {
         <StatusBar style="auto" />
         <Stack>
             <Stack.Screen name="index" options={{ title: 'Home' }} />
+            <Stack.Screen name="videoPreview" options={{ title: 'Video Preview' }} />
             <Stack.Screen name="detectPose" options={{ title: 'Detect Pose' }} />
             <Stack.Screen name="detectOrb" options={{ title: 'Detect ORB' }} />
             <Stack.Screen name="matchOrb" options={{ title: 'Match ORB Features' }} />
